@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="805.781" height="321.774" viewBox="0 0 805.781 321.774">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.5" x2="0.636" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#545895"/>
+      <stop offset="1" stop-color="#272a51"/>
+    </linearGradient>
+  </defs>
+  <ellipse id="SNEKAER_SHADOW" data-name="SNEKAER SHADOW" cx="396" cy="31.5" rx="396" ry="31.5" transform="translate(790.797 75.231) rotate(163)" opacity="0.75" fill="url(#linear-gradient)"/>
+</svg>

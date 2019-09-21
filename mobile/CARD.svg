@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="333" height="419" viewBox="0 0 333 419">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d5901f"/>
+      <stop offset="0.9" stop-color="#13161b"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.504" stop-color="#99a5c1"/>
+      <stop offset="1" stop-color="#4e5fff"/>
+    </linearGradient>
+  </defs>
+  <g id="CARD" transform="translate(-188 -422)">
+    <g id="Add_to_the_cart" data-name="Add to the cart">
+      <g id="Rectangle_303" data-name="Rectangle 303" transform="translate(188 754)" stroke="#fff" stroke-width="1" opacity="0.25">
+        <rect width="333" height="87" stroke="none"/>
+        <rect x="0.5" y="0.5" width="332" height="86" fill="none"/>
+      </g>
+      <text id="ADd_to_cArt" data-name="ADd to cArt" transform="translate(272 808)" fill="#fff" font-size="34" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.1em"><tspan x="0" y="0">ADd to cArt</tspan></text>
+    </g>
+    <g id="Price">
+      <g id="Rectangle_305" data-name="Rectangle 305" transform="translate(188 589)" stroke="#fff" stroke-width="1" opacity="0.25">
+        <rect width="333" height="166" stroke="none"/>
+        <rect x="0.5" y="0.5" width="332" height="165" fill="none"/>
+      </g>
+      <text id="_134" data-name="134" transform="translate(304 732)" fill="#fff" font-size="150" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">134</tspan></text>
+      <text id="Price-2" data-name="Price" transform="translate(206 646)" fill="#fff" font-size="49" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">Price</tspan></text>
+      <text id="_" data-name="£" transform="translate(284 732)" fill="#fff" font-size="49" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">£</tspan></text>
+    </g>
+    <g id="Colour">
+      <g id="Rectangle_307" data-name="Rectangle 307" transform="translate(354 422)" stroke="#fff" stroke-width="1" opacity="0.25">
+        <rect width="167" height="168" stroke="none"/>
+        <rect x="0.5" y="0.5" width="166" height="167" fill="none"/>
+      </g>
+      <text id="Colour-2" data-name="Colour" transform="translate(376 480)" fill="#fff" font-size="48" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">Colour</tspan></text>
+      <g id="Colours">
+        <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(468 545)" stroke="#fff" stroke-width="2" fill="url(#linear-gradient)">
+          <circle cx="15" cy="15" r="15" stroke="none"/>
+          <circle cx="15" cy="15" r="14" fill="none"/>
+        </g>
+        <path id="Path_3" data-name="Path 3" d="M15.019,0A15.019,15.019,0,1,1,0,15.019,15.019,15.019,0,0,1,15.019,0Z" transform="translate(467.542 501.001)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <text id="Black_Gold" data-name="Black&amp;
+Gold" transform="translate(377 529)" fill="#fff" font-size="24" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">Black&amp;</tspan><tspan x="0" y="29">Gold</tspan></text>
+    </g>
+    <g id="Size">
+      <g id="Rectangle_306" data-name="Rectangle 306" transform="translate(188 422)" stroke="#fff" stroke-width="1" opacity="0.25">
+        <rect width="167" height="168" stroke="none"/>
+        <rect x="0.5" y="0.5" width="166" height="167" fill="none"/>
+      </g>
+      <text id="Size-2" data-name="Size" transform="translate(204 481)" fill="#fff" font-size="49" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">Size</tspan></text>
+      <text id="_11" data-name="11" transform="translate(342 576)" fill="#fff" font-size="119" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="-99.96" y="0">11</tspan></text>
+      <text id="UK" transform="translate(206 506)" fill="#fff" font-size="24" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.04em" opacity="0.75"><tspan x="0" y="0">UK</tspan></text>
+      <g id="Icon_ionic-ios-arrow-dropdown" data-name="Icon ionic-ios-arrow-dropdown" transform="translate(209.725 551.725)">
+        <path id="Path_8" data-name="Path 8" d="M10.266,14.7a.983.983,0,0,0,0,1.381l4.822,4.827a.968.968,0,0,0,1.34.03l4.751-4.756a.973.973,0,1,0-1.37-1.381l-4.081,4.038L11.641,14.7A.969.969,0,0,0,10.266,14.7Z" transform="translate(-1.852 -3.122)" fill="#fff"/>
+        <path id="Path_9" data-name="Path 9" d="M3.375,13.875a10.5,10.5,0,1,0,10.5-10.5A10.5,10.5,0,0,0,3.375,13.875ZM20.155,7.6A8.881,8.881,0,1,1,7.6,20.155,8.881,8.881,0,1,1,20.155,7.6Z" transform="translate(0 0)" fill="#fff" opacity="0.75"/>
+      </g>
+      <g id="Icon_ionic-ios-arrow-dropdown-2" data-name="Icon ionic-ios-arrow-dropdown" transform="translate(209.725 521.725)">
+        <path id="Path_8-2" data-name="Path 8" d="M10.266,20.907a.983.983,0,0,1,0-1.381L15.088,14.7a.968.968,0,0,1,1.34-.03l4.751,4.756a.973.973,0,1,1-1.37,1.381l-4.081-4.038-4.086,4.144A.969.969,0,0,1,10.266,20.907Z" transform="translate(-1.852 -4.737)" fill="#fff"/>
+        <path id="Path_9-2" data-name="Path 9" d="M3.375,13.875a10.5,10.5,0,1,1,10.5,10.5A10.5,10.5,0,0,1,3.375,13.875Zm16.78,6.28A8.881,8.881,0,1,0,7.6,7.6a8.881,8.881,0,1,0,12.56,12.56Z" transform="translate(0 0)" fill="#fff" opacity="0.75"/>
+      </g>
+    </g>
+  </g>
+</svg>
