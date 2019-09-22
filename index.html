@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Airmax 95</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Airmax 95</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/chz6iqm.css" />
+	</head>
 
-  <body onload="onLoadFunc()">
-    <div id="container">
-      <div class="background" id="mainMenu"></div>
-      <div class="background" id="shoppingCart"></div>
-      <div class="text" id="airMax">
-        <p>AIR MAX 95</p>
-      </div>
-      <div class="background" id="nikeLogo"></div>
-      <div id="backgroundCircle"></div>
-
-      <div class="background" id="productImage"></div>
-      <div class="text" id="colour">
-        <p>Colour</p>
-      </div>
-      <div id="colourSelector">
-        <button class="colourSelectors" id="goldBlack"></button>
-        <button class="colourSelectors" id="blueWhite"></button>
-      </div>
-      <div class="text" id="size">Size</div>
-      <div id="sizeSelector">
-        <button class="text" id="selector">11</button>
-      </div>
-      <div class="text" id="price">
-        <p>£134</p>
-      </div>
-      <div id="addButton" class="text">
-        <button id="addToTheCart">
-          add to the cart
-        </button>
-      </div>
-    </div>
-    <script type="text/javascript" src="./script1.js"></script>
-  </body>
+	<body>
+		<div class="parent">
+			<div class="div1">asd</div>
+			<div class="div2">asd</div>
+			<div class="div3">asd</div>
+		</div>
+		<div class="container">
+			<div id="cntmainMenu">
+				<button id="bntMainMenu"></button>
+			</div>
+			<div id="cntshoppingCart">
+				<button id="bntShoppingCart"></button>
+			</div>
+			<div id="cntproductName">
+				<p id="productName">AIR MAX 95</p>
+			</div>
+			<div id="cntlogo" class="elementCenter">
+				<img src="./mobile/nikeLogo.svg" alt="Nike Logo" id="logoImage" />
+			</div>
+			<div id="cntproductImage" class="elementCenter">
+				<img
+					src="./mobile//goldProduct.svg"
+					alt="AirMax 95"
+					id="productImage"
+				/>
+			</div>
+			<div id="cntcolourPicker" class="alignVertically">
+				<p class="subHeading">Colour</p>
+				<div id="goldBlack" class="colourPicker"></div>
+				<div id="blueWhite" class="colourPicker"></div>
+			</div>
+			<div id="cntsizePicker" class="alignVertically">
+				<p class="subHeading">Size</p>
+				<button id="size7" class="sizeBnt">7</button>
+				<button id="size8" class="sizeBnt">8</button>
+				<button id="size9" class="sizeBnt">9</button>
+				<button id="size10" class="sizeBnt">10</button>
+				<button id="size11" class="sizeBnt">11</button>
+			</div>
+			<div id="cntpayments" class="alignVertically">
+				<img src="./mobile/paymentIcon.svg" alt="Payment methods" />
+				<p class="infoText">All payment methods accepted</p>
+			</div>
+			<div id="cntdiscount" class="alignVertically">
+				<img src="./mobile/dollarIcon.svg" alt="Discount" />
+				<p class="infoText">10% off with StudentBeans</p>
+			</div>
+			<div id="cntprice" class="elementCenter">
+				<p id="price">£134</p>
+			</div>
+			<div id="cntadd" class="elementCenter">
+				<button id="addbnt">Add to the cart</button>
+			</div>
+		</div>
+		<script type="text/javascript"></script>
+	</body>
 </html>
+
+<!-- 
+	top right position:
+		#element{position: absolute; top: 0; right: 0;}
+		.cnt {position: relative;}
+	
+	align vertically:
+		cnt{display: flex; align-items: center;}
+
+	// one div for mobile one div for desktop
+// when screeen >~ 500px use one and display:none
+// use regular css and html
+//media query
+//+media query for ipad...
+<canvas id="canvas"> </canvas>
+...rest of the code
+-->

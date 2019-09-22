@@ -1,185 +1,201 @@
 body,
 html {
-  height: 100%;
-  margin: 0;
-}
-
-p {
-  margin: 0;
+	height: 100%;
+	margin: 0;
 }
 
 html {
-  background: url("./mobile/background.svg") no-repeat 0 0 fixed;
-  background-size: cover;
+	background: url('./mobile/background.svg') no-repeat 0 0 fixed;
+	background-size: cover;
+}
+
+p {
+	margin: 0;
 }
 
 button {
-  all: unset;
-}
-.text {
-  font-family: "OpenSansLight";
-  text-align: center;
-  margin: auto;
-  color: white;
-  letter-spacing: 0.024em;
-  font-size: 24px;
-  display: flex;
+	all: unset;
 }
 
-.background {
-  background-repeat: no-repeat;
-  background-position: center center;
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) repeat(3, 2fr) repeat(2, 1fr);
+	grid-template-rows:
+		repeat(2, 1fr) repeat(2, 2.5fr) 4fr repeat(2, 2fr) 1.5fr 1fr
+		repeat(2, 2fr) 1fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+}
+.sizeBnt {
+	margin: 2%;
+	height: 35px;
+	width: 35px;
+	border-radius: 10px;
+	border: 2px solid white;
+	background-color: white;
+	text-align: center;
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+}
+.alignVertically {
+	display: flex;
+	align-items: center;
+}
+.subHeading {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	margin-right: 10px;
 }
 
-.colourSelectors {
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  z-index: 3;
+.infoText {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	margin-left: 10px;
 }
 
-#container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr) repeat(3, 3fr) repeat(2, 1fr);
-  grid-template-rows:
-    repeat(2, 1fr) 1.5fr 2fr repeat(2, 3fr) repeat(2, 1fr) repeat(2, 2fr)
-    1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  width: 100vw;
-  height: 100vh;
-  margin: 0px;
-}
-#mainMenu {
-  grid-area: 2 / 2 / 3 / 3;
-  background-image: url("./mobile/mainMenuIcon.svg");
-}
-#shoppingCart {
-  grid-area: 2 / 6 / 3 / 7;
-  background-image: url("./mobile/shoppingCartIcon.svg");
-}
-#airMax {
-  grid-area: 3 / 3 / 4 / 6;
-  font-size: 57px;
-  letter-spacing: 0.04em;
-}
-#nikeLogo {
-  grid-area: 4 / 3 / 5 / 6;
-  background-image: url("./mobile/nikeLogo.svg");
-  z-index: 1;
-}
-#backgroundCircle {
-  grid-area: 4 / 3 / 9 / 7;
-  background-image: url("./mobile/backgroundCircle.svg");
-  z-index: 1;
-  position: absolute;
-  left: -200px;
-}
-#productImage {
-  grid-area: 5 / 2 / 7 / 7;
-  background-image: url("./mobile//goldProduct.svg");
-  z-index: 2;
+.elementCenter {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#colour {
-  grid-area: 7 / 3 / 8 / 4;
-}
-#colourSelector {
-  grid-area: 8 / 3 / 9 / 4;
-  display: flex;
-}
-#size {
-  grid-area: 7 / 5 / 8 / 6;
-}
-#sizeSelector {
-  grid-area: 8 / 5 / 9 / 6;
-  display: flex;
-}
-#price {
-  grid-area: 9 / 4 / 10 / 5;
-  font-size: 52px;
-  letter-spacing: 0.04em;
-}
-#addButton {
-  grid-area: 10 / 3 / 11 / 6;
+.colourPicker {
+	width: 40px;
+	border-radius: 100%;
+	height: 40px;
+	margin: 10px;
 }
 
-#addToTheCart {
-  border-radius: 20px;
-  background-image: linear-gradient(to bottom right, #922ef6, #4a64ac);
-  width: 263px;
-  height: 58px;
+#cntmainMenu {
+	grid-area: 2 / 2 / 3 / 3;
 }
 
-#goldBlack {
-  background-image: linear-gradient(#d5901f, #000000);
-  box-shadow: 0 0 0 1px white;
-}
-#blueWhite {
-  background-image: linear-gradient(#ffffff, #4e5fff);
+#cntmainMenu #bntMainMenu {
+	background-image: url('./mobile/mainMenuIcon.svg');
+	height: 18px;
+	width: 15px;
 }
 
-#selector {
-  border-radius: 10px;
-  height: 40px;
-  width: 40px;
-  background-color: white;
-  color: black;
-  display: inline-block;
+#cntshoppingCart {
+	grid-area: 2 / 6 / 3 / 7;
+	position: relative;
 }
 
-.colourSelectorsAnimation {
-  animation: select 1s;
+#cntshoppingCart #bntShoppingCart {
+	background-image: url('./mobile/shoppingCartIcon.svg');
+	height: 18.085px;
+	width: 20.346px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
-.backgroundAnimation {
-  animation: slide 1s;
+#cntproductName {
+	grid-area: 3 / 3 / 4 / 6;
 }
 
-.fadeInAnimation {
-  animation-name: fadeIn;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
+#cntproductName #productName {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: white;
+	font-size: 57px;
+	letter-spacing: 0.04em;
+}
+#cntlogo {
+	grid-area: 3 / 3 / 5 / 6;
 }
 
-@keyframes slide {
-  0% {
-  }
-  100% {
-    left: 0em;
-    position: static;
-
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+#cntproductImage {
+	grid-area: 4 / 2 / 6 / 7;
+}
+#cntcolourPicker {
+	grid-area: 6 / 2 / 7 / 7;
 }
 
-@keyframes select {
-  0% {
-  }
-  100% {
-    box-shadow: 0 0 0 1px white;
-  }
+#cntcolourPicker #goldBlack {
+	background-image: linear-gradient(#d5901f, #000000);
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#cntcolourPicker #blueWhite {
+	background-image: linear-gradient(#ffffff, #4e5fff);
 }
 
-@font-face {
-  font-family: "OpenSansLight";
-  src: url("./BebasNeue/bebasneue-regular-webfont.eot");
-  src: url("./BebasNeue/bebasneue-regular-webfont.eot?iefix")
-      format("embedded-opentype"),
-    url("./BebasNeue/bebasneue-regular-webfont.woff") format("woff"),
-    url("./BebasNeue/bebasneue-regular-webfont.ttf") format("truetype"),
-    url("./BebasNeue//bebasneue-regular-webfont.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+#cntsizePicker {
+	grid-area: 7 / 2 / 8 / 8;
+}
+#cntpayments {
+	grid-area: 8 / 2 / 9 / 7;
+}
+
+#cntdiscount {
+	grid-area: 9 / 2 / 10 / 7;
+}
+#cntprice {
+	grid-area: 10 / 4 / 11 / 5;
+}
+
+#cntprice #price {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	color: white;
+	font-size: 44px;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+#cntadd {
+	grid-area: 11 / 2 / 12 / 7;
+}
+
+#cntadd #addbnt {
+	border-radius: 20px;
+	background-image: linear-gradient(to bottom right, #922ef6, #4a64ac);
+	width: 263px;
+	height: 58px;
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 0px 10px #4a64ac;
+}
+
+.parent {
+	display: none;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+.div1 {
+	grid-area: 2 / 1 / 3 / 6;
+}
+.div2 {
+	grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+	grid-area: 4 / 4 / 5 / 5;
+}
+
+#canvas {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
 }
