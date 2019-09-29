@@ -1,2 +1,2 @@
-# AirMax-landing-page
-Simple landing page for AirMax 95 sneakers
+# Nike-space store
+E commerce store featuring Nike products 
