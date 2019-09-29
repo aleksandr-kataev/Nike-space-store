@@ -14,7 +14,7 @@ echo "Connected successfully";
       
 $sql = "SELECT * FROM products WHERE id = 'ab1'";
 $result = $conn->query($sql);
-
+echo $results;
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
