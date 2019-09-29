@@ -1,7 +1,7 @@
 <?php 
 $servername = "eu-cdbr-west-02.cleardb.net";
-$username = " bd7f314c063cdf";
-$password = " bfeb2057";
+$username = "bd7f314c063cdf";
+$password = "bfeb2057";
 
 // Create connection
 $link = mysqli_connect( $servername, $username, $password )
