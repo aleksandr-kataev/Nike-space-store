@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
       
-$sql = "SELECT * FROM products WHERE id = 'hy1'";
+$sql = "SELECT * FROM products WHERE id = 'ab1'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
