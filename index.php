@@ -12,9 +12,9 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
       
-$sql = "SELECT * FROM products WHERE id = 'ab1'";
+$sql = "SELECT * FROM heroku_bf773d3c16f4bef.products WHERE id = 'ab1';";
 $result = $conn->query($sql);
-echo $results;
+
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
