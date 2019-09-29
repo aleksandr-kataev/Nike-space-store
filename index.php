@@ -4,24 +4,17 @@ $username = " bd7f314c063cdf";
 $password = " bfeb2057";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
-
+$link = mysqli_connect( $servername, $username, $password )
+or die( "Unable to Connect" );
 // Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+
 $sql = "SELECT * FROM products WHERE id = 'hy1'";
-$result = $conn->query($sql);
+$result = mysqli_query($link, $sql);
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. ", name: ". $row["name"]. ", section: " . $row["section"] . ", isSize: " . $row["isSizeNum"] . "colour: " . $row["colourName"] . "<br>";
-    }
-} else {
-    echo "0 results";
-}
+while($row = mysqli_fetch_array( $result, MYSQLI_ASSOC) {
+     echo "<br> id: ". $row["id"]. ", name: ". $row["name"]. ", section: " . $row["section"] . ", isSize: " . $row["isSizeNum"] . "colour: " . $row["colourName"] . "<br>";
+  }
 
-$conn->close();
+mysqli_close($link);
 
 ?>
