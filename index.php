@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -91,6 +91,6 @@
       </div>
       <canvas></canvas>
     </div>
+    <script src="./landing.js"></script>
   </body>
-  <script type="text/javascript" src="./landing.js"></script>
 </html>
